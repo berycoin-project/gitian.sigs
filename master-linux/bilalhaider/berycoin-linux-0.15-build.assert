@@ -1,17 +1,17 @@
 --- !!omap
 - out_manifest: |
-    c94a5d4328b1de9ba133c172d40ec0710eaf23e6890e41ab2712cb936b2c2488  berycoin-0.15.1-aarch64-linux-gnu-debug.tar.gz
-    8dddb8fc48617a97d68d72e446293fcb0e5db06c4a6abd536b4a638e9de79b2c  berycoin-0.15.1-aarch64-linux-gnu.tar.gz
-    021331a0d23a161ca46d176c795d4ee0bf11e743b20ed2da6f1e1f7abbf2d267  berycoin-0.15.1-arm-linux-gnueabihf-debug.tar.gz
-    e7334a04689afa72764dbd1fe25afd3a784030484a64f845598f8c8f21e0c4ba  berycoin-0.15.1-arm-linux-gnueabihf.tar.gz
-    a3a1df2610baee6b5d3f3589e7487c025a7edbc5c92a7783eafe7155ec760d50  berycoin-0.15.1-i686-pc-linux-gnu-debug.tar.gz
-    09b8c91a0faf00aab4c5948af46968a3cce52a08b3387af74d5e26d5bcf360f6  berycoin-0.15.1-i686-pc-linux-gnu.tar.gz
-    03188eecfaf5b3853921a087c066e2d393aee215f008dd1b05817d234b82e76c  berycoin-0.15.1-x86_64-linux-gnu-debug.tar.gz
-    e4615ea3aaec0678ba49dec14a2cbdb4e0cf51f21bd790658b5e6bb82c8adc20  berycoin-0.15.1-x86_64-linux-gnu.tar.gz
-    4ad57a7139b2ba93cfea7589e84c7f10957be625598dca71d4ebfb9f0dc0101b  src/berycoin-0.15.1.tar.gz
+    7117a0647f935ad9ee66d176b6614c8ebc7dbf25d09aec17561c615951ceb612  berycoin-0.15.1-aarch64-linux-gnu-debug.tar.gz
+    7e03a4dbd9f4e956a8fe45258544a3a0bc0b375fbcdd5c39044a02f51ff5926a  berycoin-0.15.1-aarch64-linux-gnu.tar.gz
+    b6f9e187f674e239746059c606f3ae76794f371ffc209e1b22d008a60cee0b98  berycoin-0.15.1-arm-linux-gnueabihf-debug.tar.gz
+    60f8147f25205bc984d5fd8aafcd8d8200973fbe56a96bb0304df005bd101b5f  berycoin-0.15.1-arm-linux-gnueabihf.tar.gz
+    9cbec84ecace5bcdec3083ab79f6597a2b849f47da4a0e91b794eba7277fce92  berycoin-0.15.1-i686-pc-linux-gnu-debug.tar.gz
+    12a1eab875da0c372f1f1233c09d23a0178f395c0429be7bdd3fb17d254662ba  berycoin-0.15.1-i686-pc-linux-gnu.tar.gz
+    cae23316d80ef805b31796fa5abb4eb563e3e282ffdbdc891468d7ac302567b3  berycoin-0.15.1-x86_64-linux-gnu-debug.tar.gz
+    babee9b4a516be957fe917bb2b1c26d36028bc91fcde2bc67fb88b07090fe75c  berycoin-0.15.1-x86_64-linux-gnu.tar.gz
+    527c1074854bdd81c8649486dcb4650c620462d53a8dcb259e8fefd4b9a68bc3  src/berycoin-0.15.1.tar.gz
 - in_manifest: |-
     813bf1a93e1b4f7face00c574d7ce6c48104ef341e46e67ff2afb4359f59b8b5  berycoin-linux-0.15-desc.yml
-    git:11d64d7ffb03c7f507ea33150ce7a261e9602e96 berycoingit:c10bda8bac2c23dad8dbad812cfbc95b0d63fd08 cpp-eth-berycoin
+    git:23e4c8d0e5d79f759ca3371a46666fc360e16f16 berycoingit:c10bda8bac2c23dad8dbad812cfbc95b0d63fd08 cpp-eth-berycoin
 - base_manifests: !!omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb
