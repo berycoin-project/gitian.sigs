@@ -1,12 +1,12 @@
 --- !!omap
 - out_manifest: |
-    42759ef4b5e521ca6dccbdff0f9cdbfa32c076bbd929eedce79e8077b5b94506  berycoin-0.15.2-win-unsigned.tar.gz
-    4db1f459e820718c91c025730a84036f4a06ee5d9a760ae2a511a477d26acd49  berycoin-0.15.2-win32-debug.zip
-    daebd0c9064c14560f8d4ca5e9946f12744ca1ac4d79de5ad4e6e702c69337cc  berycoin-0.15.2-win32-setup-unsigned.exe
-    d5c54d3affecd5babd6aa36deded867c8540c1d5b32bd64da00ae79df7d0b16f  berycoin-0.15.2-win32.zip
+    23452a49662316480d4a139c2d9246f8e38b91aca0ff0064b040f195e915608f  berycoin-0.15.2-win-unsigned.tar.gz
+    b6fb1cafa2669cbb404dc6ae6e35096d7f6f9b7f14b0c85aa1ec2a7aa695d391  berycoin-0.15.2-win32-debug.zip
+    b622b9debf1a6b4d1d96748953490daab856e314b382d86ca52964e18a088fc1  berycoin-0.15.2-win32-setup-unsigned.exe
+    35432598543c37e72db35462c55b17b063f4d850a8cbd60993633d4af726c232  berycoin-0.15.2-win32.zip
     450a67e5b8300295d53ed872511048999f1c8aa61cfd71c275fb40cb08399eea  berycoin-0.15.2-win64-debug.zip
-    7f2560e4df1139b878c8ba364a16f0c6acff5ee53bbb95f374d86e0bcba92f16  berycoin-0.15.2-win64-setup-unsigned.exe
-    5efd24c4329fc68adc115d3028dfa657ab15ccddaf0d7f5201be72a520bc6e45  berycoin-0.15.2-win64.zip
+    4031e0315dadbfad5ea02d788a6afe97923335a1d42b2ae89fc41ff742bc3905  berycoin-0.15.2-win64-setup-unsigned.exe
+    7138d01186a4b1f9e29ae69f696863cadcb57e6551db2a3ea379a7c74e6fd4f4  berycoin-0.15.2-win64.zip
     49ace0fdc7cb256d238252b9e8b407e1c0474ef18c68e7cb65bd5eb1ff09787d  src/berycoin-0.15.2.tar.gz
 - in_manifest: |-
     db9dde9ee80b79d39a01853fc4c55d8c5873376b0d697f2ca320057fcb99e5c0  berycoin-win-0.15-desc.yml
