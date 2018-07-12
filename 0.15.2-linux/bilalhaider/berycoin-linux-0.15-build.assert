@@ -1,17 +1,17 @@
 --- !!omap
 - out_manifest: |
-    8c28f467719dd1fab545791c4b8b13b8f540bdf70f00ec41f987b705c06d5fd8  berycoin-0.15.2-aarch64-linux-gnu-debug.tar.gz
-    28191861ee8e38a9f404dd0cde58697e1f50c7fd0b809ada5885574f388f7b45  berycoin-0.15.2-aarch64-linux-gnu.tar.gz
-    2aaf00d33d9d8c4b6d3f73254185dada9b9654e1e8da1382e6ef1bc75020e44e  berycoin-0.15.2-arm-linux-gnueabihf-debug.tar.gz
-    c8e49bf77f5055439a87f204002d99e989b1570b19672d253b5dde1c7b3d4a16  berycoin-0.15.2-arm-linux-gnueabihf.tar.gz
-    8d2960764735f6ab3b4cac55b3ce2c87a16206dea06920fa4cc73aed2fd738f0  berycoin-0.15.2-i686-pc-linux-gnu-debug.tar.gz
-    ba98596c58b90a9947670a42b3df287dda1fe86e27e4e17e2e4481e16659b695  berycoin-0.15.2-i686-pc-linux-gnu.tar.gz
-    0f854b7683922b2e26048960e00e02c598888f665e2dd5efa4e58350637327ef  berycoin-0.15.2-x86_64-linux-gnu-debug.tar.gz
-    551cdffb56f7143417e8f54d848d2e94a22a00d6b2d7e2104bd7a0a99f511081  berycoin-0.15.2-x86_64-linux-gnu.tar.gz
-    8aaf7008ea712a13a0eafd6191a88cca3b2f5b500434f5c4ebe7dcc8b768245b  src/berycoin-0.15.2.tar.gz
+    28cb851b482351700e76596434b62c7127cc7251a25f5fa3e6748df22e7780e7  berycoin-0.15.2-aarch64-linux-gnu-debug.tar.gz
+    fcce64f66dfa68098db6bbf0cc61d0d33e403e904e83b974545bb102fa29613c  berycoin-0.15.2-aarch64-linux-gnu.tar.gz
+    18361c7a4caa45c6d065769d6af47902c4d639464aedbed2c660eaa6b86c4756  berycoin-0.15.2-arm-linux-gnueabihf-debug.tar.gz
+    4d35677a15a235826d5bebc3213cd7dbd672926bef2459b5ab27addacbedbc01  berycoin-0.15.2-arm-linux-gnueabihf.tar.gz
+    f720272958c0b31f8640f692d1e893f68fb20716203ab85bc1dae4bb2d7e1d2a  berycoin-0.15.2-i686-pc-linux-gnu-debug.tar.gz
+    3e4a5f86f7837d2c85503f36d248225f44b069c3f9930be368a9b5ae479fe080  berycoin-0.15.2-i686-pc-linux-gnu.tar.gz
+    d1d6590809d6c23531e8874e8187913edfce53fd2079cd6587b25ff58ed5f20e  berycoin-0.15.2-x86_64-linux-gnu-debug.tar.gz
+    458bc16d35f20a48ce43f21aa219c3590c82c88acdea2fde9c6cb76e8d0b537c  berycoin-0.15.2-x86_64-linux-gnu.tar.gz
+    af5ef2ce5f8421ca775bf28d61a451c9faeff2d6ba7f92bfa8ac3a79e8fec313  src/berycoin-0.15.2.tar.gz
 - in_manifest: |-
     813bf1a93e1b4f7face00c574d7ce6c48104ef341e46e67ff2afb4359f59b8b5  berycoin-linux-0.15-desc.yml
-    git:0d26ea7a575143e31ca904468a4debd2b987e5af berycoingit:a91c12bf99beacbb74cad030978612dd73a9e191 cpp-eth-berycoin
+    git:b41a7ee350e885a2f5cd5e9487563b6328889c24 berycoingit:a91c12bf99beacbb74cad030978612dd73a9e191 cpp-eth-berycoin
 - base_manifests: !!omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb
@@ -357,7 +357,7 @@
       fcf61648b4853e8e7569accde66ee7ec85df5ff67e8684b587c0f7a6ce1faeb1  libpcre3_1%3a8.31-2ubuntu2_amd64.deb
       da23f012fc50750dfa0bac1b11e43a02e7b31086ef57d4e57b9b162e7680e253  libplymouth2_0.8.8-0ubuntu17.2_amd64.deb
       f4fc20ed605241787ac931aa29a4fcef92aea6ec00e2eafe398964945d052a45  libplymouth2_0.8.8-0ubuntu17_amd64.deb
-      726396295296d23212e9a5f37ad609d0744857f8c656ddd4492c2d007ccc4389  libpng12-0_1.2.50-1ubuntu2.14.04.2_amd64.deb
+      572ea6b0675193b20d5abce84ba51311a94331648ef417c8d853be068f45a12b  libpng12-0_1.2.50-1ubuntu2.14.04.3_amd64.deb
       ab4256aa7b304f1e4852c7f545024ee77ebd2f9fa58f1f277162ad991bd10003  libpng12-0_1.2.50-1ubuntu2_amd64.deb
       c60d9fed458d5fdaded1e7d1e18218b71308cb23a3b7f7043665ec9cb9560f0c  libpod-latex-perl_0.61-1_all.deb
       39568e2bbf8f85f7dc372e778ce2aaf8a2e902baf9c1c62eabdf06169c747719  libpopt0_1.16-8ubuntu1_amd64.deb
@@ -452,7 +452,7 @@
       3d26bdc4ff0de9c4451d8e782768a5688c3dbac7676318467f78f2a1e701afb3  linux-libc-dev-arm64-cross_3.13.0-12.32cross0.10_all.deb
       26bc3c1bfcaa158bed2e044eb90c1aa3d608129ce3c610cfa90202adc1b17732  linux-libc-dev-armel-cross_3.13.0-12.32cross1.104_all.deb
       327cfa8923b3a65988a1628d9dc620ed440d3fb89212a4a8a33ff7777d9cf4aa  linux-libc-dev-armhf-cross_3.13.0-12.32cross1.104_all.deb
-      fdcc3763e33e19ac3c434287f26a56bf201b2c3314aff38a5baf6e95f464d05e  linux-libc-dev_3.13.0-151.201_amd64.deb
+      29596bd5fe7e56b03857e211068f64e54be2b3f6ef3f6bbfaa122393275d8a9f  linux-libc-dev_3.13.0-153.203_amd64.deb
       1a5d88e47eaeb28456e11449fd42244e7af7ccfc9d12a36ede2afb94d19f37d7  linux-libc-dev_3.13.0-24.46_amd64.deb
       998a5dfc01f07e24fe96321e2ce5a707ba1aef154c1cbacb2483722a0eee2df1  locales_2.13+git20120306-12.1_all.deb
       d78a27a94732ed1109754b72c4f1aa0d6fa81e595a18d62ef64fb7c6939f0871  locales_2.13+git20120306-12_all.deb
@@ -487,7 +487,7 @@
       ef921d19b77685cec007c146616056ee679d80ee4ef834b9e2da8c01fa139eef  net-tools_1.60-25ubuntu2_amd64.deb
       ca6cb202c674c6b8615b6560dc9c6cd87530e8862ccc9aa79c888de6b2154377  netbase_5.2_all.deb
       2a8a27ca24e402f6d23ff730179812ee47cb067d1f3f82e627ec9bdcdeff1637  netcat-openbsd_1.105-7ubuntu1_amd64.deb
-      8c1a0a507455f2f819b8874b9c2702df9544829259bd437cb8f7cab311047f9a  ntpdate_1%3a4.2.6.p5+dfsg-3ubuntu2.14.04.12_amd64.deb
+      3b6447136e3c4925a33cf97e58b8b079c718d8afb4d1cd8f27e76f8bfa5d35e0  ntpdate_1%3a4.2.6.p5+dfsg-3ubuntu2.14.04.13_amd64.deb
       d3870e5e0fc0599ce330436566b82449db07aa82fe3ce4a653130ccbb5847a85  ntpdate_1%3a4.2.6.p5+dfsg-3ubuntu2_amd64.deb
       ef469d9323f0634fb9211c0c007b699d0ca53619f1f23ade2796f2e3acaaee3d  openssl_1.0.1f-1ubuntu2.26_amd64.deb
       5e62317b9e984874c9ba8f8f7409d91957a3f88006f2f38c17560099f349e230  passwd_1%3a4.1.5.1-1ubuntu9.5_amd64.deb

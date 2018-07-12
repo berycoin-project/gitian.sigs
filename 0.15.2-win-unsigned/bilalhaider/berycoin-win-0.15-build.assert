@@ -1,25 +1,25 @@
 --- !!omap
 - out_manifest: |
-    23452a49662316480d4a139c2d9246f8e38b91aca0ff0064b040f195e915608f  berycoin-0.15.2-win-unsigned.tar.gz
-    b6fb1cafa2669cbb404dc6ae6e35096d7f6f9b7f14b0c85aa1ec2a7aa695d391  berycoin-0.15.2-win32-debug.zip
-    b622b9debf1a6b4d1d96748953490daab856e314b382d86ca52964e18a088fc1  berycoin-0.15.2-win32-setup-unsigned.exe
-    35432598543c37e72db35462c55b17b063f4d850a8cbd60993633d4af726c232  berycoin-0.15.2-win32.zip
-    450a67e5b8300295d53ed872511048999f1c8aa61cfd71c275fb40cb08399eea  berycoin-0.15.2-win64-debug.zip
-    4031e0315dadbfad5ea02d788a6afe97923335a1d42b2ae89fc41ff742bc3905  berycoin-0.15.2-win64-setup-unsigned.exe
-    7138d01186a4b1f9e29ae69f696863cadcb57e6551db2a3ea379a7c74e6fd4f4  berycoin-0.15.2-win64.zip
-    49ace0fdc7cb256d238252b9e8b407e1c0474ef18c68e7cb65bd5eb1ff09787d  src/berycoin-0.15.2.tar.gz
+    b14bd39c9cccf2b7b549ffc6300300555c70738e5644e250e942f1467e101cf1  berycoin-0.15.2-win-unsigned.tar.gz
+    9dd5882e6a306635901283540782503d77f9c8f199c351ed315c7216db73054f  berycoin-0.15.2-win32-debug.zip
+    0571ff127be74ac3f8efa6700d09323d5e2c12ea4165073a8119d4b8ca41dd54  berycoin-0.15.2-win32-setup-unsigned.exe
+    f29d10db4eace3c85f83a61111d2f1432f73833ff01a56c364eed1765ae9f9c8  berycoin-0.15.2-win32.zip
+    61abd1c78b1d52612bd34d5044804ba7a968109b17a055a18a63dd647a2ad196  berycoin-0.15.2-win64-debug.zip
+    32fd1c7f770898a6810c48bd60a29011460d5fdb04ee8b2b794e604fe54da508  berycoin-0.15.2-win64-setup-unsigned.exe
+    67036e0edb98c6fdb3be8fd36a055e7b90ac1b512b0e05d2bf991df8336ea160  berycoin-0.15.2-win64.zip
+    a6df4d023d7fba4ba36ede07d40a612fafc174970867e397827f37f209decd90  src/berycoin-0.15.2.tar.gz
 - in_manifest: |-
     db9dde9ee80b79d39a01853fc4c55d8c5873376b0d697f2ca320057fcb99e5c0  berycoin-win-0.15-desc.yml
-    git:0d26ea7a575143e31ca904468a4debd2b987e5af berycoingit:a91c12bf99beacbb74cad030978612dd73a9e191 cpp-eth-berycoin
+    git:b41a7ee350e885a2f5cd5e9487563b6328889c24 berycoingit:a91c12bf99beacbb74cad030978612dd73a9e191 cpp-eth-berycoin
 - base_manifests: !!omap
   - xenial-amd64: |
       ca6c86cb229082cc22874ed320eac8d128cc91f086fe5687946e7d05758516a3  adduser_3.113+nmu3ubuntu4_all.deb
       e692f0875c87ce71dcf0f82377ae1efc433c0cf058e6c91b8bfb22c8ccfd5392  apparmor_2.10.95-0ubuntu2.9_amd64.deb
       e5a26afe7f04b5d8b6292a5c6fbb5482797e410bda4ab8720cba528f3ba1fb3f  apparmor_2.10.95-0ubuntu2_amd64.deb
       7d81577084a098cfe584b26202b1cbb84a0554f52b40e608ad77f8139654ca9f  apt-utils_1.2.10ubuntu1_amd64.deb
-      39a1adbf630bf6912371a3a9703a6d18fc7ab0d5fe3a79ca9c6f2a0fed398ac8  apt-utils_1.2.26_amd64.deb
+      41a79a1c0722eff7d90ff01711d2e2afd6ad21dab98e783f551d6e6bd8c6e5a5  apt-utils_1.2.27_amd64.deb
       b92526303f058b835e8cbe0489cfc3e9b8195a2e3dac40480c74587b1b0820bb  apt_1.2.10ubuntu1_amd64.deb
-      c92a0994a2e322f7f425144a11caabe1e28b459c14159c7d78cea5c8011c84f2  apt_1.2.26_amd64.deb
+      5cb73fc1656ae62136ae4b371916b5b351c9aaa398a36a6a71bcb0d920099c7b  apt_1.2.27_amd64.deb
       027ba00547630211adb0c74e250f9f71c2d62db4e56351f7974719c2341c224e  autoconf_2.69-9_all.deb
       d751ccfc07111b34fdd07795689771625d07f28c2769e6f06d4e473500039641  automake_1%3a1.15-4ubuntu1_all.deb
       e17d8684dabb3ec7db679093a9db57763f036665f20f8df00db7afe27a53f250  autotools-dev_20150820.1_all.deb
@@ -149,9 +149,9 @@
       eb3307cba4b55b5a8ed80062813410214dcedab51cc93e8609fb33891fb359f3  libapr1_1.5.2-3_amd64.deb
       2c5832d56bd7dda5f01b73b87c0c6d60daf1baf747018259d3000b410fbd6156  libaprutil1_1.5.4-1build1_amd64.deb
       9d08ccdbf77bd7eacd11e7430b7b938a0660dc7d6b0e73465568388fcfd65d47  libapt-inst2.0_1.2.10ubuntu1_amd64.deb
-      fbb832f9b386c639b45eda4703777f91006394a63d92da3cf29cb3417fe42da8  libapt-inst2.0_1.2.26_amd64.deb
+      7dbfc6b321e72f8e1895a0aeb9a95d7dae25793b9a73238b85b0c71b079eb1eb  libapt-inst2.0_1.2.27_amd64.deb
       24f15d1ef38436364ad5b1a07c08a1c54351dbf3067e71d40f19efa6412e8085  libapt-pkg5.0_1.2.10ubuntu1_amd64.deb
-      8d856980939aaecef6a37783d0ac538b64c97f351fa33fc9b473ddd5b5643f6a  libapt-pkg5.0_1.2.26_amd64.deb
+      0c9b9b21c46646facbb66faff004895c24233c15b3a9002541210b9868d2032c  libapt-pkg5.0_1.2.27_amd64.deb
       c0690d21e0a66017759907c0e7df42acafa12bedb09958d37e10558d0eff48d6  libasan2_5.3.1-14ubuntu2_amd64.deb
       4a34180b7c8794c699220763c948347fb0fcdb3e06691e73d1e8544d4a1d69a3  libasan2_5.4.0-6ubuntu1~16.04.10_amd64.deb
       362130227ae81171895ca27fae174fb87fbf7b7466349edf23e0ef4e707b7ff1  libasn1-8-heimdal_1.7~git20150920+dfsg-4ubuntu1.16.04.1_amd64.deb
@@ -197,9 +197,9 @@
       8c002e09bae9e263967c1f98f7352e974db45fb24ac41da8d582a743b69cd82d  libdns-export162_1%3a9.10.3.dfsg.P4-8ubuntu1.10_amd64.deb
       15036961a6880c207e85932797aef7bd4563dcbcfe33ab4350f4a5c0c757812f  libdpkg-perl_1.18.4ubuntu1.4_all.deb
       0f3f544cc1ced2ee66ae4b95de2f7264090a04e79b541b4f444dec51b6646449  libdpkg-perl_1.18.4ubuntu1_all.deb
-      3cc95b1b2e40d51b6d8663391d52fe5397b7dd0de279a0da14a254008b6dce24  libdrm-common_2.4.83-1~16.04.1_all.deb
+      398714bd25b09da68640b25891ec7e3bfc63ebe7d85fe15a67f584a1912e4c95  libdrm-common_2.4.91-2~16.04.1_all.deb
       d908db6dd686e4fbbb76d92d9248067f79bb31c1215b3ccf80b45d81025db3cc  libdrm2_2.4.67-1_amd64.deb
-      ce10e542e8abb275b86557d99645665497e22083a3952df3866a5105170449d7  libdrm2_2.4.83-1~16.04.1_amd64.deb
+      7c67e41337ee417fcc1e94c5e284edfa14233a5a70e8bea7b21fe391bf069b06  libdrm2_2.4.91-2~16.04.1_amd64.deb
       96ab735053c41d8690467b2d87aac6203a180e1adc7b4b2d4ffec49d90dbe482  liberror-perl_0.17-1.2_all.deb
       34fc9fe2f35d4e8bf3751f5e38eb9c497fa9a21bdab2f40cfcab668291187de2  libestr0_0.1.10-1_amd64.deb
       bb7c7ff463a96c8298914b04c27cf8cd5832d08838f66fa433daa0edfc4c989b  libexpat1_2.1.0-7_amd64.deb
@@ -304,6 +304,7 @@
       ce2e62e30294678ea5ade64d93b9a48bdecc7ca1048c21e604d339e3424b62c1  libperl5.22_5.22.1-9ubuntu0.5_amd64.deb
       3f366895aebce86b94062d01279b01f8c6db795eed391a08d394f54e8eec89e7  libplymouth4_0.9.2-3ubuntu13.5_amd64.deb
       41c358c4ac03d690eda8c72febd18536c789a22203dccc889701a3c68ae2c7b9  libplymouth4_0.9.2-3ubuntu13_amd64.deb
+      9d938a376dafd1668827ceeb742f18b164c390e53774b06eaaf644713b6ffb25  libpng12-0_1.2.54-1ubuntu1.1_amd64.deb
       1644e3936830ed3cf3ab7fac64de99f38e16f7be001ce7947600789ce85e7bcc  libpng12-0_1.2.54-1ubuntu1_amd64.deb
       9e880a8b87114b9f586dd8a1fbabaabfe335663a9f0fd5861cad37e979ddc3bc  libpopt0_1.16-10_amd64.deb
       5e228beae740ee68d4c04f6fe58d8786ed955c7e78822449cb1b2b10df0868b5  libprocps4_2%3a3.3.10-4ubuntu2.4_amd64.deb
@@ -370,7 +371,7 @@
       9a4140b0b599612af1006efeee1c6b98771b0bc8dcdcd0510218ef69d6652c7f  libxtables11_1.6.0-2ubuntu3_amd64.deb
       ea20b5f5b232fa6ac15f6a7bf85f95ac3df56df884678747ed924364a7923a22  linux-base_4.0ubuntu1_all.deb
       83b9cc1f35c228e2f14ef603617b9c1540538637e26396a208e23154945ff5ee  linux-base_4.5ubuntu1~16.04.1_all.deb
-      ed0ee48113feec1040d2cef96cbe3088c996a93f3b3818ec87c34ac65bf4ea1a  linux-libc-dev_4.4.0-128.154_amd64.deb
+      37243e573b946e6887d79fb8110330292f728a929add256ef83d6116ff955c25  linux-libc-dev_4.4.0-130.156_amd64.deb
       b79bb61ae018a452185253073301f3a8a8945aca329a29938068e05560089347  linux-libc-dev_4.4.0-21.37_amd64.deb
       1212898914978ba4380ce890abc48c223ece3a6c362da1e85c1dcfb4d56897aa  locales_2.23-0ubuntu10_all.deb
       eafd6ddb293b315f53029d1d554e471f71db54de9ae7995b8de67fecd2b3834d  locales_2.23-0ubuntu3_all.deb
